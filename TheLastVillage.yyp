@@ -19,6 +19,7 @@
     {"id":{"name":"Object4","path":"objects/Object4/Object4.yy",},"order":3,},
     {"id":{"name":"Spr_fundoDeTela","path":"sprites/Spr_fundoDeTela/Spr_fundoDeTela.yy",},"order":2,},
     {"id":{"name":"Spr_parede","path":"sprites/Spr_parede/Spr_parede.yy",},"order":3,},
+    {"id":{"name":"Spr_Sword","path":"sprites/Spr_Sword/Spr_Sword.yy",},"order":13,},
     {"id":{"name":"Sprite12","path":"sprites/Sprite12/Sprite12.yy",},"order":11,},
     {"id":{"name":"Sprite6","path":"sprites/Sprite6/Sprite6.yy",},"order":5,},
     {"id":{"name":"Sprite13","path":"sprites/Sprite13/Sprite13.yy",},"order":12,},
@@ -30,6 +31,7 @@
     {"id":{"name":"Obj_parede","path":"objects/Obj_parede/Obj_parede.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
     {"id":{"name":"Sprite11","path":"sprites/Sprite11/Sprite11.yy",},"order":10,},
+    {"id":{"name":"Obj_Sword","path":"objects/Obj_Sword/Obj_Sword.yy",},"order":10,},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},"order":1,},
     {"id":{"name":"Spr_fundoVerde","path":"sprites/Spr_fundoVerde/Spr_fundoVerde.yy",},"order":0,},
   ],
@@ -37,10 +39,9 @@
     {"name":"operagx","path":"options/operagx/options_operagx.yy",},
     {"name":"Main","path":"options/main/options_main.yy",},
     {"name":"Windows","path":"options/windows/options_windows.yy",},
-<<<<<<< Updated upstream
-=======
     {"name":"operagx","path":"options/operagx/options_operagx.yy",},
->>>>>>> Stashed changes
+    {"name":"Linux","path":"options/linux/options_linux.yy",},
+    {"name":"macOS","path":"options/mac/options_mac.yy",},
   ],
   "defaultScriptType": 1,
   "isEcma": false,
