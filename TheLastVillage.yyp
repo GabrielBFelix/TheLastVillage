@@ -37,6 +37,10 @@
     {"name":"operagx","path":"options/operagx/options_operagx.yy",},
     {"name":"Main","path":"options/main/options_main.yy",},
     {"name":"Windows","path":"options/windows/options_windows.yy",},
+<<<<<<< Updated upstream
+=======
+    {"name":"operagx","path":"options/operagx/options_operagx.yy",},
+>>>>>>> Stashed changes
   ],
   "defaultScriptType": 1,
   "isEcma": false,
