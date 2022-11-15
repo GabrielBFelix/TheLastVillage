@@ -35,6 +35,7 @@
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_284A56D3","properties":[],"isDnd":false,"objectId":{"name":"Obj_jogador","path":"objects/Obj_jogador/Obj_jogador.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":416.0,"y":992.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_64939F9","properties":[],"isDnd":false,"objectId":{"name":"Obj_Sword","path":"objects/Obj_Sword/Obj_Sword.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-128.0,"y":1024.0,},
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_2","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_618F6BDC","properties":[],"isDnd":false,"objectId":{"name":"Obj_chaodebarro","path":"objects/Obj_chaodebarro/Obj_chaodebarro.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.5,"scaleY":2.125,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":896.0,"y":1024.0,},
@@ -74,6 +75,7 @@
     {"name":"inst_3034B0E7","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_5EFD75DC","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_3D9C6573","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_64939F9","path":"rooms/Room1/Room1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
