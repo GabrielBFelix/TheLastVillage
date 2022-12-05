@@ -1,3 +1,5 @@
+visible = false;
+
 width = 76;
 height = 104;
 
@@ -7,9 +9,11 @@ op_space = 16; // Distância entre as opções do menu
 pos = 0;
 
 // Menu Principal
-option[0, 0] = "Start Game";
-option[0, 1] = "Settings";
-option[0, 2] = "Quit Game";
+option[0, 0] = "Resume";
+option[0, 1] = "Restart";
+option[0, 2] = "Options";
+option[0, 3] = "Exit to Main Menu";
+option[0, 4] = "Exit to desktop";
 
 // Menu de Configurações
 option[1, 0] = "Window Size";
@@ -18,6 +22,4 @@ option[1, 2] = "Controls";
 option[1, 3] = "Back";
 
 op_length = 0; // Salva o quão longa é a lista de opções
-menu_level = 0; // Salva o nível atual em que o menu está (0 = primeiro menu, 1 = menu de configurações)
-
-
+menu_level = 0;

@@ -13,6 +13,8 @@ up = keyboard_check(ord("W"));
 velHor = (right - left) * velocidade;
 velVer = (down - up) * velocidade;
 
+// Se ambos maior que 1 multiplica pela raizs
+
 if(place_meeting(x + velHor, y, Obj_casaCostas and Obj_arvore)){
 	while(!place_meeting(x + sign(velHor), y , Obj_casaCostas and Obj_arvore)){
 		x+= sign(velHor);
