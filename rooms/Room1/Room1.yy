@@ -6,7 +6,7 @@
   "volume": 1.0,
   "parentRoom": null,
   "views": [
-    {"inherit":false,"visible":true,"xview":0,"yview":0,"wview":340,"hview":192,"xport":0,"yport":0,"wport":1920,"hport":980,"hborder":170,"vborder":96,"hspeed":-1,"vspeed":-1,"objectId":{"name":"Obj_jogador","path":"objects/Obj_jogador/Obj_jogador.yy",},},
+    {"inherit":false,"visible":true,"xview":0,"yview":0,"wview":320,"hview":240,"xport":0,"yport":0,"wport":320,"hport":240,"hborder":170,"vborder":96,"hspeed":-1,"vspeed":-1,"objectId":{"name":"Obj_jogador","path":"objects/Obj_jogador/Obj_jogador.yy",},},
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
@@ -18,6 +18,8 @@
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"UI","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7B9EE405","properties":[],"isDnd":false,"objectId":{"name":"obj_game_menu","path":"objects/obj_game_menu/obj_game_menu.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-64.0,"y":32.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5332CE6D","properties":[],"isDnd":false,"objectId":{"name":"Obj_arvore","path":"objects/Obj_arvore/Obj_arvore.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1120.0,"y":1600.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5A4F8926","properties":[],"isDnd":false,"objectId":{"name":"Obj_arvore","path":"objects/Obj_arvore/Obj_arvore.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":480.0,"y":1664.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_4","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3034B0E7","properties":[],"isDnd":false,"objectId":{"name":"Obj_enemy_passaro","path":"objects/Obj_enemy_passaro/Obj_enemy_passaro.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":672.0,"y":576.0,},
@@ -80,6 +82,8 @@
     {"name":"inst_3D9C6573","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_64939F9","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_7B9EE405","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_5332CE6D","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_5A4F8926","path":"rooms/Room1/Room1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

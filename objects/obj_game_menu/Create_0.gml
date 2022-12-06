@@ -3,7 +3,7 @@ visible = false;
 width = 76;
 height = 104;
 
-op_border = 6; // Distância das opções do menu para o canto da tela
+op_border = 8; // Distância das opções do menu para o canto da tela
 op_space = 16; // Distância entre as opções do menu
 
 pos = 0;
