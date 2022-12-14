@@ -14,6 +14,7 @@ if pos < 0 {pos=op_length-1};
 
 if esc_key { 
 	visible = true;
+	global.pause = true;
 }
 
 // usando as opções
@@ -27,9 +28,9 @@ if accept_key {
 		case 0:
 			switch(pos){
 				// Resume
-				case 0: visible = false; break;
+				case 0: visible = false; global.pause = false; break;
 				// Restart
-				case 1: break;
+				case 1: room_restart(); break;
 				// Options
 				case 2: menu_level = 1; break;
 				// Options

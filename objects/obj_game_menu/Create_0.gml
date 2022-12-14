@@ -1,4 +1,5 @@
 visible = false;
+global.pause = false;
 
 width = 76;
 height = 104;

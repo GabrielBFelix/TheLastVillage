@@ -1,6 +1,8 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
+if (global.pause) exit; // Se o jogo tiver pausado, pare o jogador
+
 // controles 
 var left, right, down, up;
 
