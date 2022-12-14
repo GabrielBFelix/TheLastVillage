@@ -1,6 +1,8 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
+if (global.pause) exit; // Se o jogo tiver pausado, pare o jogador
+
 // controles 
 var left, right, down, up;
 
@@ -12,6 +14,8 @@ up = keyboard_check(ord("W"));
 
 velHor = (right - left) * velocidade;
 velVer = (down - up) * velocidade;
+
+// Se ambos maior que 1 multiplica pela raizs
 
 if(place_meeting(x + velHor, y, Obj_casaCostas and Obj_arvore)){
 	while(!place_meeting(x + sign(velHor), y , Obj_casaCostas and Obj_arvore)){

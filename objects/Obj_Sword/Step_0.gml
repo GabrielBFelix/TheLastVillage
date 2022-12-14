@@ -1,6 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if (global.pause) exit; // Se o jogo tiver pausado, pare o jogador
+
+
 if (cooldown){
 	if (++cooldownAtaque >= tempo_cooldown)
 		cooldown = false;
