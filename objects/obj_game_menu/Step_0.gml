@@ -30,11 +30,11 @@ if accept_key {
 				// Resume
 				case 0: visible = false; global.pause = false; break;
 				// Restart
-				case 1: room_restart(); break;
+				case 1: room_restart(); audio_stop_all(); break;
 				// Options
 				case 2: menu_level = 1; break;
-				// Options
-				case 3: room_goto_previous(); break;
+				// Exit to main menu
+				case 3: room_goto_previous(); audio_stop_all(); break;
 				// Exit to Desktop
 				case 4: game_end(); break;
 				}
